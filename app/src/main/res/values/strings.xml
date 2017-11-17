@@ -74,13 +74,13 @@
     <string name="sec200_p202">202. En el año 2016, ¿su empresa ha utilizado o ha implementado algún estándar de calidad o alguna norma técnica para elaborar su producto o prestación de sus servicios industriales?</string>
     <string name="sec200_p202_sp1">Si</string>
     <string name="sec200_p202_sp2">No</string>
-    <string name="sec200_p203">¿Cuál es el origen de la norma técnica o estándar de calidad más importante que utilizó o implementó?</string>
+    <string name="sec200_p203">203. ¿Cuál es el origen de la norma técnica o estándar de calidad más importante que utilizó o implementó?</string>
     <string name="sec200_p203_sp1">Nacional (NTP)</string>
     <string name="sec200_p203_sp2">Internacional</string>
     <string name="sec200_p203_sp3">Norma de Asociación (Ej. ASTM, FNOR, UNE, etc.)</string>
     <string name="sec200_p203_sp4">Otra</string>
-    <string name="sec200_p204">¿En qué año implementó la norma técnica o estándar de calidad más importante?</string>
-    <string name="sec200_p205">¿Qué beneficios consiguió con la implementación o utilización de la norma técnica o estándar de calidad?</string>
+    <string name="sec200_p204">204. ¿En qué año implementó la norma técnica o estándar de calidad más importante?</string>
+    <string name="sec200_p205">205. ¿Qué beneficios consiguió con la implementación o utilización de la norma técnica o estándar de calidad?</string>
     <string name="sec200_p205_sp1">Le ha permitido mejorar su productividad</string>
     <string name="sec200_p205_sp2">Le ha permitido reducir sus costos</string>
     <string name="sec200_p205_sp3">Le ha permitido mejorar la calidad de su producto final</string>
@@ -157,4 +157,7 @@
     <string name="sec400_p410_sp2">Un programa del Ministerio de la Producción</string>
     <string name="sec400_p410_sp3">Empresas Internacionales</string>
     <string name="sec400_p410_sp4">Otra entidad</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

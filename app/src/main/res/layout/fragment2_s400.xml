@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrador.encal.Fragments.Fragment2_s400">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include layout="@layout/sec400_p408"></include>
+            <include layout="@layout/sec400_p409"></include>
+            <include layout="@layout/sec400_p410"></include>
+            <include layout="@layout/observaciones"></include>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
