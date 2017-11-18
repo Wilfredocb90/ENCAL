@@ -7,24 +7,20 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
-
-    <style name="InputText" parent="AppTheme">
-        <!-- Customize your theme here. -->
-        <item name="colorControlNormal">@color/icons</item>
-        <item name="colorControlActivated">@color/icons</item>
-        <item name="colorAccent">@color/icons</item>
-        <item name="android:textColorPrimary">@color/icons</item>
-        <item name="android:textColorHint">@color/icons</item>
+    <style name="RaisedButtonDark" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/greyBluePrimaryDark</item>
+        <item name="colorControlHighlight">@color/greyBluePrimary</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
 
-    <style name="EstiloBoton" parent="AppTheme">
-        <!-- Customize your theme here. -->
-        <item name="colorControlNormal">@color/colorPrimary</item>
-        <item name="colorControlActivated">@color/colorPrimary</item>
-        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
-        <item name="android:colorActivatedHighlight">@color/colorPrimary</item>
-        <item name="android:solidColor">@color/colorPrimary</item>
+    <style name="CajaInput" parent="Theme.AppCompat.Light">
+        <item name="android:textColorHint">@color/greyBluePrimary</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColorPrimary">@color/greyBluePrimary</item>
+        <item name="colorAccent">@color/greyBluePrimary</item>
+        <item name="colorControlNormal">@color/greyBluePrimary</item>
+        <item name="colorControlActivated">@color/greyBluePrimaryDark</item>
     </style>
 
 </resources>

@@ -1,6 +1,18 @@
 <resources>
     <string name="app_name">ENCAL</string>
 
+    <string name="texto_usuario">USUARIO</string>
+    <string name="texto_password">CONTRASEÑA</string>
+    <string name="texto_ingresar">INGRESAR</string>
+
+    <string-array name="item_spinner">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+        <item>item5</item>
+    </string-array>
+
     <string name="sec100_p101">101. Actividad económica principal de la empresa (Registre el código CllU Rev. 4 que corresponde la principal actividad que realiza la empresa)</string>
     <string name="sec100_p102">102. Actividades económicas secundarias de la empresa (Registre las actividades secundarias que realiza la empresa)</string>
     <string name="sec100_p103">103. ¿Cuál es la constitución legal de la empresa?</string>
