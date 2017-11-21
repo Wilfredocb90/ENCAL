@@ -1,6 +1,5 @@
 package com.example.administrador.encal;
 
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -14,7 +13,6 @@ import com.example.administrador.encal.Fragments.Fragment1_s200;
 import com.example.administrador.encal.Fragments.Fragment1_s300;
 import com.example.administrador.encal.Fragments.Fragment1_s400;
 import com.example.administrador.encal.Fragments.Fragment2_s100;
-import com.example.administrador.encal.Fragments.Fragment2_s300;
 import com.example.administrador.encal.Fragments.Fragment2_s400;
 import com.example.administrador.encal.Fragments.Fragment3_s100;
 

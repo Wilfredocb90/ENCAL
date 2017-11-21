@@ -18,7 +18,7 @@
             android:layout_marginBottom="10dp"
             android:text="@string/sec100_p104"/>
         <RadioGroup
-            android:id="@+id/rasec100_p104_rg"
+            android:id="@+id/sec100_p104_rg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"

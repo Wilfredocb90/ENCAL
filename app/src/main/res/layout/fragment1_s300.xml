@@ -8,13 +8,24 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:layout_marginBottom="10dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:orientation="vertical">
+
             <include layout="@layout/sec300_p301"></include>
+
             <include layout="@layout/sec300_p302"></include>
+
+            <include layout="@layout/sec300_p303"></include>
+
+            <include layout="@layout/sec300_p304"></include>
+
+            <include layout="@layout/sec300_p305"></include>
 
         </LinearLayout>
 

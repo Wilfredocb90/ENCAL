@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp"
-    >
+    android:layout_margin="10dp"    >
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -21,11 +20,32 @@
                 android:textStyle="bold"
                 android:layout_marginBottom="10dp"
                 />
+            <RadioGroup
+                android:id="@+id/sec300_p302_rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+                <RadioButton
+                    android:id="@+id/sec100_p302_rbSi"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Si"/>
+                <RadioButton
+                    android:id="@+id/sec100_p302_rbNo"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"/>
+            </RadioGroup>
             <LinearLayout
+                android:id="@+id/sec100_p302_lyt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@drawable/marco_tabla">
+                android:background="@drawable/marco_tabla"
+                >
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="110dp"
@@ -298,11 +318,13 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:gravity="center">
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgM1"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbM1"
                                 android:layout_weight="1"
@@ -329,7 +351,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                         <View
                             android:layout_width="match_parent"
@@ -337,11 +359,13 @@
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgM2"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbM3"
                                 android:layout_weight="1"
@@ -368,18 +392,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgM3"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbM5"
                                 android:layout_weight="1"
@@ -406,18 +432,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgM4"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbM7"
                                 android:layout_weight="1"
@@ -444,7 +472,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </LinearLayout>
                     <View
@@ -457,11 +485,13 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:gravity="center">
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgM5"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbM9"
                                 android:layout_weight="1"
@@ -488,7 +518,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                         <View
                             android:layout_width="match_parent"
@@ -496,11 +526,13 @@
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgM6"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbM11"
                                 android:layout_weight="1"
@@ -527,18 +559,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgM7"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbM13"
                                 android:layout_weight="1"
@@ -565,18 +599,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgM8"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbM15"
                                 android:layout_weight="1"
@@ -603,7 +639,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </LinearLayout>
                     <View
@@ -760,11 +796,13 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:gravity="center">
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgL1"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbL1"
                                 android:layout_weight="1"
@@ -791,7 +829,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                         <View
                             android:layout_width="match_parent"
@@ -799,11 +837,13 @@
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgL2"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbL3"
                                 android:layout_weight="1"
@@ -830,18 +870,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgL3"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbL5"
                                 android:layout_weight="1"
@@ -868,18 +910,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgL4"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbL7"
                                 android:layout_weight="1"
@@ -906,7 +950,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </LinearLayout>
                     <View
@@ -919,11 +963,13 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:gravity="center">
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgL5"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbL9"
                                 android:layout_weight="1"
@@ -950,7 +996,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                         <View
                             android:layout_width="match_parent"
@@ -958,11 +1004,13 @@
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgL6"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbL11"
                                 android:layout_weight="1"
@@ -989,18 +1037,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgL7"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbL13"
                                 android:layout_weight="1"
@@ -1027,18 +1077,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgL8"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbL15"
                                 android:layout_weight="1"
@@ -1065,7 +1117,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </LinearLayout>
                     <View
@@ -1236,11 +1288,13 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:gravity="center">
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgP1"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbP1"
                                 android:layout_weight="1"
@@ -1267,7 +1321,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                         <View
                             android:layout_width="match_parent"
@@ -1275,11 +1329,13 @@
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgP2"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbP3"
                                 android:layout_weight="1"
@@ -1306,7 +1362,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                         <View
                             android:layout_width="match_parent"
@@ -1314,11 +1370,13 @@
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgP3"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbP5"
                                 android:layout_weight="1"
@@ -1345,18 +1403,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgP4"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbP7"
                                 android:layout_weight="1"
@@ -1383,18 +1443,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgP5"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbP9"
                                 android:layout_weight="1"
@@ -1421,7 +1483,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </LinearLayout>
                     <View
@@ -1434,11 +1496,13 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:gravity="center">
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgP6"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
 
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbP11"
@@ -1466,7 +1530,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                         <View
                             android:layout_width="match_parent"
@@ -1474,11 +1538,13 @@
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgP7"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
 
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbP13"
@@ -1506,7 +1572,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                         <View
                             android:layout_width="match_parent"
@@ -1514,11 +1580,13 @@
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgP8"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbP15"
                                 android:layout_weight="1"
@@ -1545,18 +1613,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgP9"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbP17"
                                 android:layout_weight="1"
@@ -1583,18 +1653,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgP10"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbP19"
                                 android:layout_weight="1"
@@ -1621,7 +1693,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </LinearLayout>
                     <View
@@ -1793,11 +1865,13 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:gravity="center">
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgT1"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbT1"
                                 android:layout_weight="1"
@@ -1824,7 +1898,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                         <View
                             android:layout_width="match_parent"
@@ -1832,11 +1906,13 @@
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgT2"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbT3"
                                 android:layout_weight="1"
@@ -1863,18 +1939,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgT3"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbT5"
                                 android:layout_weight="1"
@@ -1901,18 +1979,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgT4"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbT7"
                                 android:layout_weight="1"
@@ -1939,7 +2019,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </LinearLayout>
                     <View
@@ -1952,11 +2032,13 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:gravity="center">
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgT5"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbT9"
                                 android:layout_weight="1"
@@ -1983,7 +2065,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                         <View
                             android:layout_width="match_parent"
@@ -1991,11 +2073,13 @@
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgT6"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbT11"
                                 android:layout_weight="1"
@@ -2022,18 +2106,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgT7"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbT13"
                                 android:layout_weight="1"
@@ -2060,18 +2146,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgT8"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbT15"
                                 android:layout_weight="1"
@@ -2098,7 +2186,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </LinearLayout>
                     <View
@@ -2244,11 +2332,13 @@
 
 
 
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgV1"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbV1"
                                 android:layout_weight="1"
@@ -2275,18 +2365,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgV2"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbV3"
                                 android:layout_weight="1"
@@ -2313,18 +2405,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgV3"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbV5"
                                 android:layout_weight="1"
@@ -2351,7 +2445,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </LinearLayout>
                     <View
@@ -2365,11 +2459,13 @@
                         android:orientation="vertical"
                         android:gravity="center">
 
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgV4"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbV7"
                                 android:layout_weight="1"
@@ -2396,18 +2492,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="#607d8b"
                             >
                         </View>
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgV5"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbV9"
                                 android:layout_weight="1"
@@ -2434,7 +2532,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
@@ -2442,10 +2540,12 @@
                             >
                         </View>
                         <LinearLayout
+                            android:id="@+id/sec300_p302_rgV6"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbV11"
                                 android:layout_weight="1"
@@ -2575,11 +2675,13 @@
                         android:orientation="vertical"
                         android:gravity="center">
 
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgO1"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbO1"
                                 android:layout_weight="1"
@@ -2606,7 +2708,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </LinearLayout>
                     <View
@@ -2622,11 +2724,13 @@
 
 
 
-                        <LinearLayout
+                        <RadioGroup
+                            android:id="@+id/sec300_p302_rgO2"
                             android:layout_weight="4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <RadioButton
                                 android:id="@+id/sec300_p302_rbO3"
                                 android:layout_weight="1"
@@ -2653,7 +2757,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"/>
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </LinearLayout>
                     <View
