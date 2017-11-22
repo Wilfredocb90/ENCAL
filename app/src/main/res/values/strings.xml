@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">ENCAL</string>
+
+    <string name="texto_usuario">USUARIO</string>
+    <string name="texto_password">CONTRASEÑA</string>
+    <string name="texto_ingresar">INGRESAR</string>
+
+    <string-array name="item_spinner">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+        <item>item5</item>
+    </string-array>
+
+    <string name="sec100_p101">101. Actividad económica principal de la empresa (Registre el código CllU Rev. 4 que corresponde la principal actividad que realiza la empresa)</string>
+    <string name="sec100_p102">102. Actividades económicas secundarias de la empresa (Registre las actividades secundarias que realiza la empresa)</string>
+    <string name="sec100_p103">103. ¿Cuál es la constitución legal de la empresa?</string>
+    <string name="sec100_p103_sp1">Persona natural</string>
+    <string name="sec100_p103_sp2">Sociedad anónima abierta</string>
+    <string name="sec100_p103_sp3">Sociedad anónima cerrada</string>
+    <string name="sec100_p103_sp4">Sociedad comercial de responsabilidad limitada</string>
+    <string name="sec100_p103_sp5">Empresa individual de responsabilidad limitada</string>
+    <string name="sec100_p103_sp6">Otra</string>
+    <string name="sec100_p104">104. Sus ventas totales del año 2016, se encuentran en el rango de:</string>
+    <string name="sec100_p104_sp1">Hasta  592 500 soles</string>
+    <string name="sec100_p104_sp2">Mayor a  592 500 soles</string>
+    <string name="sec100_p105">105. En el año 2016 ¿Cuántos trabajadores tenía en promedio su empresa? (Incluidos los que no estuvieron en planillas).</string>
+    <string name="sec100_p106">106. En el año 2016 ¿Cuál fue el nivel educativo de sus trabajadores? (Indique el número de trabajadores según nivel de educación máximo alcanzado)</string>
+    <string name="sec100_p106_sp1">Superior Universitaria (completa o incompleta)</string>
+    <string name="sec100_p106_sp2">Superior Técnica (completa o incompleta)</string>
+    <string name="sec100_p106_sp3">Secundaria/Primaria</string>
+    <string name="sec100_p106_sp4">Inicial/Sin nivel</string>
+    <string name="sec100_p106_sp5">Total</string>
+    <string name="sec100_p107">107. ¿En qué mercados vende su principal producto o servicio industrial? </string>
+    <string name="sec100_p107_sp1">Local (en la región donde se ubica la empresa)</string>
+    <string name="sec100_p107_sp2">Nacional (dos o más regiones)</string>
+    <string name="sec100_p107_sp3">Internacional</string>
+    <string name="sec100_p108">108. En el año 2016, ¿ha exportado algún producto o servicio industrial?</string>
+    <string name="sec100_p108_sp1">Si</string>
+    <string name="sec100_p108_sp2">No</string>
+    <string name="sec100_p109">109. ¿Cuáles son las principales dificultades para que su empresa exporte? </string>
+    <string name="sec100_p109_sp1">El cumplimiento de requisitos de calidad exigidos por los compradores</string>
+    <string name="sec100_p109_sp2">El cumplimiento de requisitos de cantidad exigidos por los compradores</string>
+    <string name="sec100_p109_sp3">Falta de información sobre los trámites requeridos para exportar</string>
+    <string name="sec100_p109_sp4">La identificación de mercados y/o compradores potenciales</string>
+    <string name="sec100_p109_sp5">Altos costos logísticos y/o difícil acceso al financiamiento de las operaciones de comercio exterior</string>
+    <string name="sec100_p109_sp6">Otra</string>
+    <string name="sec100_p110">110. ¿Cuáles de los siguientes factores son importantes para mantenerse o posicionarse mejor en el mercado? </string>
+    <string name="sec100_p110_sp1">Precio del producto o servicio industrial que ofrece</string>
+    <string name="sec100_p110_sp2">Calidad del producto o servicio industrial que ofrece</string>
+    <string name="sec100_p110_sp3">Grado de diferenciación del producto o servicio industrial que ofrece con respecto al de otras empresas</string>
+    <string name="sec100_p110_sp4">Tiempo de entrega</string>
+    <string name="sec100_p110_sp5">Servicio al cliente</string>
+    <string name="sec100_p110_sp6">Uso de TIC (Redes sociales, página web, email)</string>
+    <string name="sec100_p110_sp7">Otra</string>
+    <string name="sec100_p111">111. Su empresa, ¿pertenece a alguna asociación, organización o gremio empresarial?</string>
+    <string name="sec100_p111_sp1">Si</string>
+    <string name="sec100_p111_sp2">No</string>
+    <string name="sec100_p112">112. ¿A qué tipo de organización o agrupación pertenece? (Lea y seleccione la alternativa que corresponda)</string>
+    <string name="sec100_p112_sp1">Asociación</string>
+    <string name="sec100_p112_sp2">Cooperativa</string>
+    <string name="sec100_p112_sp3">Consorcio</string>
+    <string name="sec100_p112_sp4">Grupo sin personería jurídica para realizar operaciones empresariales</string>
+    <string name="sec100_p112_sp5">Otro</string>
+    <string name="sec100_p113">113. ¿Cuáles fueron los motivos por los que se incorporó a una o más organizaciones o agrupaciones? </string>
+    <string name="sec100_p113_sp1">Para mejorar su poder de negociación con sus proveedores</string>
+    <string name="sec100_p113_sp2">Para acceder a servicios financieros</string>
+    <string name="sec100_p113_sp3">Para acceder a nuevos mercados</string>
+    <string name="sec100_p113_sp4">Para acceder a servicios de capacitación y asistencia técnica</string>
+    <string name="sec100_p113_sp5">Otro</string>
+    <string name="sec100_p114">114. ¿Por qué su empresa no pertenece a una organización o agrupación? (Solo para quienes respondieron NO en 111).</string>
+    <string name="sec100_p114_sp1">Altos costos (aportes/cuotas)</string>
+    <string name="sec100_p114_sp2">Falta de confianza en la asociación o en los asociados</string>
+    <string name="sec100_p114_sp3">Limita capacidad de decisión de la empresa</string>
+    <string name="sec100_p114_sp4">No existe asociación para el rubro de la empresa</string>
+    <string name="sec100_p114_sp5">No percibe beneficios/no lo necesita</string>
+    <string name="sec100_p114_sp6">Falta de información</string>
+    <string name="sec100_p114_sp7">Otro</string>
+
+    <string name="sec200_p201">201. En su empresa, ¿Cómo establecen las características o especificaciones técnicas de sus productos o servicios industriales?</string>
+    <string name="sec200_p201_sp1">Lo establece la empresa (especificación propia)</string>
+    <string name="sec200_p201_sp2">Lo establece el cliente</string>
+    <string name="sec200_p201_sp3">Toma como referencia a otras empresas</string>
+    <string name="sec200_p201_sp4">Lo establece utilizando una norma técnica o estándar de calidad</string>
+    <string name="sec200_p202">202. En el año 2016, ¿su empresa ha utilizado o ha implementado algún estándar de calidad o alguna norma técnica para elaborar su producto o prestación de sus servicios industriales?</string>
+    <string name="sec200_p202_sp1">Si</string>
+    <string name="sec200_p202_sp2">No</string>
+    <string name="sec200_p203">203. ¿Cuál es el origen de la norma técnica o estándar de calidad más importante que utilizó o implementó?</string>
+    <string name="sec200_p203_sp1">Nacional (NTP)</string>
+    <string name="sec200_p203_sp2">Internacional</string>
+    <string name="sec200_p203_sp3">Norma de Asociación (Ej. ASTM, FNOR, UNE, etc.)</string>
+    <string name="sec200_p203_sp4">Otra</string>
+    <string name="sec200_p204">204. ¿En qué año implementó la norma técnica o estándar de calidad más importante?</string>
+    <string name="sec200_p205">205. ¿Qué beneficios consiguió con la implementación o utilización de la norma técnica o estándar de calidad?</string>
+    <string name="sec200_p205_sp1">Le ha permitido mejorar su productividad</string>
+    <string name="sec200_p205_sp2">Le ha permitido reducir sus costos</string>
+    <string name="sec200_p205_sp3">Le ha permitido mejorar la calidad de su producto final</string>
+    <string name="sec200_p205_sp4">Le ha permitido ampliar su mercado</string>
+    <string name="sec200_p205_sp5">Ningún beneficio / No ha sido útil</string>
+    <string name="sec200_p205_sp6">Otro</string>
+
+    <string name="sec300_p301">301. Algún producto o servicio industrial que ofrece su empresa ¿ha tenido rechazo o problemas por errores de medición?</string>
+    <string name="sec300_p301_sp1">Si</string>
+    <string name="sec300_p301_sp2">No</string>
+    <string name="sec300_p302">302. En su empresa, ¿utiliza algún instrumento de medición?</string>
+    <string name="sec300_p302_sp1">Si</string>
+    <string name="sec300_p302_sp2">No</string>
+    <string name="sec300_p302_sp1A">¿Que instrumento utiliza?</string>
+    <string name="sec300_p302_sp1B">¿El instrumento a sido calibrado en el año 2016?</string>
+    <string name="sec300_p302_sp1C">¿Cuantos instrumentos a calibrado en el año 2016?</string>
+    <string name="sec300_p303">303. ¿Quién ha calibrado sus instrumentos de medición?</string>
+    <string name="sec300_p303_sp1">Los propios trabajadores de la empresa</string>
+    <string name="sec300_p303_sp2">Su empresa en su propio taller de calibración</string>
+    <string name="sec300_p303_sp3">Un técnico externo o ajeno</string>
+    <string name="sec300_p303_sp4">El INACAL</string>
+    <string name="sec300_p303_sp5">Otra entidad o laboratorio especializado</string>
+    <string name="sec300_p304">304. En caso de que haya utilizado servicios de calibración de una entidad o laboratorio especializado ¿Ésta estuvo acreditada por el Organismo Nacional de Acreditación (INACAL)?</string>
+    <string name="sec300_p304_sp1">Si</string>
+    <string name="sec300_p304_sp2">No</string>
+    <string name="sec300_p304_sp3">No sabe</string>
+    <string name="sec300_p305">305. ¿Cuál es el gasto aproximado incurrido en las calibraciones realizadas durante el 2016?</string>
+
+    <string name="sec400_p401">401. En su empresa ¿Cómo verifican la calidad de los productos o servicios industriales?</string>
+    <string name="sec400_p401_sp1">No se verifica, porque ya está establecido desde el inicio</string>
+    <string name="sec400_p401_sp2">Mediante control de calidad dentro de la empresa</string>
+    <string name="sec400_p401_sp3">Mediante el servicio de una empresa externa sin acreditación</string>
+    <string name="sec400_p401_sp4">Mediante un laboratorio de ensayo acreditado en el Perú</string>
+    <string name="sec400_p401_sp5">Mediante un laboratorio de ensayo acreditado en el extranjero</string>
+    <string name="sec400_p402">402. Alguna entidad acreditada en el Perú, ha evaluado la conformidad de la calidad de su producto o servicio industrial, o algún proceso o gestión de su empresa.</string>
+    <string name="sec400_p402_sp1">Si</string>
+    <string name="sec400_p402_sp2">No</string>
+    <string name="sec400_p403">403. Su empresa cuenta con alguna de las siguientes certificaciones.</string>
+    <string name="sec400_p403_sp1">Certificación de producto o servicio industrial</string>
+    <string name="sec400_p403_sp2">Certificación de proceso o gestión</string>
+    <string name="sec400_p403_sp3">Certificación de la empresa</string>
+    <string name="sec400_p403_sp4">Ninguna certificación</string>
+    <string name="sec400_p404">404. Respecto a la principal certificación con la que cuenta su empresa, ¿cuál es el origen de la entidad que emitió la certificación?</string>
+    <string name="sec400_p404_sp1">Nacional</string>
+    <string name="sec400_p404_sp2">Internacional</string>
+    <string name="sec400_p405">405. Respecto a la principal certificación con la que cuenta su empresa, ¿la entidad que ha emitido la certificación está acreditada en el Perú (INACAL)?</string>
+    <string name="sec400_p405_sp1">Si</string>
+    <string name="sec400_p405_sp2">No</string>
+    <string name="sec400_p405_sp3">No sabe</string>
+    <string name="sec400_p406">406. Respecto a la principal certificación con la que cuenta su empresa, ¿Cuál fue el año de obtención de la certificación?</string>
+    <string name="sec400_p407">407. ¿Por qué razones certificó los procesos, gestión o productos?</string>
+    <string name="sec400_p407_sp1">Para cumplir requerimientos de exportación</string>
+    <string name="sec400_p407_sp2">Para cumplir requerimientos de compras estatales</string>
+    <string name="sec400_p407_sp3">Para cumplir requerimientos de clientes locales (diferentes al Estado)</string>
+    <string name="sec400_p407_sp4">Para cumplir con la exigencia de entes reguladores (SANIPES, SENASA, DIGESA, OSINERGMIN, PRODUCE, MUNICIPALIDADES, etc.)</string>
+    <string name="sec400_p407_sp5">Para diferenciar el producto</string>
+    <string name="sec400_p407_sp6">Para ser más eficiente / productivo</string>
+    <string name="sec400_p407_sp7">Otra</string>
+    <string name="sec400_p408">408. ¿Por qué no tiene certificación?</string>
+    <string name="sec400_p408_sp1">Falta de información sobre certificaciones (desconoce los requerimientos)</string>
+    <string name="sec400_p408_sp2">Requiere adecuaciones para estandarizar procesos/gestión/productos</string>
+    <string name="sec400_p408_sp3">Es muy costoso</string>
+    <string name="sec400_p408_sp4">No logra diferenciar su producto</string>
+    <string name="sec400_p408_sp5">No hay suficientes entidades certificadoras</string>
+    <string name="sec400_p408_sp6">Otro</string>
+    <string name="sec400_p409">409. En el año 2016 ¿El personal de la empresa, ha recibido asistencia técnica o asesoría sobre aspectos relacionados a la mejora de la calidad de sus productos o servicios industriales?</string>
+    <string name="sec400_p409_sp1">No recibió ninguna asistencia técnica</string>
+    <string name="sec400_p409_sp2">Sí, recibió asistencia sobre implementación de sistemas de gestión de la calidad</string>
+    <string name="sec400_p409_sp3">Sí, recibió asistencia sobre implementación de normas técnicas o estándares de producto o servicio</string>
+    <string name="sec400_p409_sp4">Sí, recibió asistencia o cursos en mediciones y/o calibración de instrumentos</string>
+    <string name="sec400_p409_sp5">Sí, recibió otro tipo de asistencia técnica</string>
+    <string name="sec400_p410">410. ¿Quién le brindó la asistencia técnica?</string>
+    <string name="sec400_p410_sp1">El INACAL</string>
+    <string name="sec400_p410_sp2">Un programa del Ministerio de la Producción</string>
+    <string name="sec400_p410_sp3">Empresas Internacionales</string>
+    <string name="sec400_p410_sp4">Otra entidad</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
