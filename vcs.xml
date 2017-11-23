@@ -6,8 +6,12 @@
           <option name="url" value="https://github.com/Wilfredocb90/ENCAL.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Ricindigus/ProyectoHATINEI.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\" />
+    <option name="cloneParentDir" value="D:\Proyecto_ENHAT" />
   </component>
 </application>
