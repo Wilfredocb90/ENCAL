@@ -14,8 +14,12 @@
           <option name="url" value="https://github.com/Ricindigus/ProyectoENCAL" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Ricindigus/ProyectoEncuestaENCAMY.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\Proyecto_ENA\301117" />
+    <option name="cloneParentDir" value="D:\Proyecto_ENCAL" />
   </component>
 </application>
