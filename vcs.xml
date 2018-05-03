@@ -22,6 +22,10 @@
           <option name="url" value="https://github.com/jucela/Proyecto_ENA.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Ricindigus/GeneradorINEIV1.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\Proyecto_KEVIN\181217" />
